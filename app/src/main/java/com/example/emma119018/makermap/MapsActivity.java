@@ -75,6 +75,73 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .title("創客中和"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(CH));
 
-        mMap.animateCamera(CameraUpdateFactory.zoomTo(10));
+        LatLng TUA = new LatLng(25.002459, 121.445736);
+        mMap.addMarker(new MarkerOptions()
+                .position(TUA)
+                .title("國立台灣藝術大學文化創意產學園區"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(TUA));
+
+        LatLng DM = new LatLng(25.084958, 121.662885);
+        mMap.addMarker(new MarkerOptions()
+                .position(DM)
+                .title("夢基地木創"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(DM));
+
+        LatLng S7W = new LatLng(24.976492, 121.541913);
+        mMap.addMarker(new MarkerOptions()
+                .position(S7W)
+                .title("小七工作站"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(S7W));
+
+        LatLng DLU = new LatLng(24.972325, 121.455768);
+        mMap.addMarker(new MarkerOptions()
+                .position(DLU)
+                .title("德霖技術學院3D列印實驗室"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(DLU));
+
+        LatLng GJH = new LatLng(25.073832, 121.488675);
+        mMap.addMarker(new MarkerOptions()
+                .position(GJH)
+                .title("私立格致高中學FabLab"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(GJH));
+
+        LatLng RFJ = new LatLng(25.105614, 121.817488);
+        mMap.addMarker(new MarkerOptions()
+                .position(RFJ)
+                .title("瑞芳國中"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(RFJ));
+
+        LatLng DNU = new LatLng(25.003296, 121.604445);
+        mMap.addMarker(new MarkerOptions()
+                .position(DNU)
+                .title("東南科技大學數位模型製作空間"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(DNU));
+
+        LatLng IOT = new LatLng(25.066270, 121.449388);
+        mMap.addMarker(new MarkerOptions()
+                .position(IOT)
+                .title("物聯網創客基地"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(IOT));
+
+        LatLng SHU = new LatLng(25.226969, 121.451654);
+        mMap.addMarker(new MarkerOptions()
+                .position(SHU)
+                .title("聖約翰科技大學3D設計列印中心"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(SHU));
+
+        LatLng RS = new LatLng(25.058565, 121.543935);
+        mMap.addMarker(new MarkerOptions()
+                .position(RS)
+                .title("3D如水同學會"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(RS));
+
+        LatLng FCT = new LatLng(25.044150, 121.529441);
+        mMap.addMarker(new MarkerOptions()
+                .position(FCT)
+                .title("FabCafe Taipei"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(FCT));
+
+
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(7));
     }
 }
