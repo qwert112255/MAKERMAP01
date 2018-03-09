@@ -39,8 +39,42 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 131);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng FGU = new LatLng(24.816226, 121.722100);
+        mMap.addMarker(new MarkerOptions()
+                .position(FGU)
+                .title("佛光大學"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(FGU));
+
+        LatLng SBH = new LatLng(24.984116, 121.451362);
+        mMap.addMarker(new MarkerOptions()
+                .position(SBH)
+                .title("新北高中Fablab"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(SBH));
+
+        LatLng HCH = new LatLng(25.007288, 121.447562);
+        mMap.addMarker(new MarkerOptions()
+                .position(HCH)
+                .title("華僑高中FabLab"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(HCH));
+
+        LatLng KMS = new LatLng(25.063048, 121.500932);
+        mMap.addMarker(new MarkerOptions()
+                .position(KMS)
+                .title("Kick2real Maker Space"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(KMS));
+
+        LatLng YDU = new LatLng(24.995194, 121.453119);
+        mMap.addMarker(new MarkerOptions()
+                .position(YDU)
+                .title("亞東技術學院工商業設計系"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(YDU));
+
+        LatLng CH = new LatLng(24.994027, 121.478425);
+        mMap.addMarker(new MarkerOptions()
+                .position(CH)
+                .title("創客中和"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(CH));
+
+        mMap.animateCamera(CameraUpdateFactory.zoomTo(10));
     }
 }
