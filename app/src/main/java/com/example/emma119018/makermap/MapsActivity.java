@@ -141,6 +141,102 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .title("FabCafe Taipei"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(FCT));
 
+        LatLng FBT = new LatLng(25.029191, 121.516080);
+        mMap.addMarker(new MarkerOptions()
+                .position(FBT)
+                .title("Fablab Taipei"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(FBT));
+
+        LatLng MBT = new LatLng(25.041241, 121.529483);
+        mMap.addMarker(new MarkerOptions()
+                .position(MBT)
+                .title("Markerbar Taipei"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(MBT));
+
+        LatLng MP = new LatLng(25.025042, 121.523137);
+        mMap.addMarker(new MarkerOptions()
+                .position(MP)
+                .title("MakerPro"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(MP));
+
+        LatLng NTU = new LatLng(25.015200, 121.537509);
+        mMap.addMarker(new MarkerOptions()
+                .position(NTU)
+                .title("NTUMaker台灣大學"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(NTU));
+
+        LatLng OT = new LatLng(25.010834, 121.532407);
+        mMap.addMarker(new MarkerOptions()
+                .position(OT)
+                .title("Openlab Taipei"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(OT));
+
+        LatLng TH = new LatLng(25.052901, 121.516884);
+        mMap.addMarker(new MarkerOptions()
+                .position(TH)
+                .title("Taipei Hackerspace"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(TH));
+
+        LatLng TSE = new LatLng(24.990414, 121.559161);
+        mMap.addMarker(new MarkerOptions()
+                .position(TSE)
+                .title("私立再興小學FabLab"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(TSE));
+
+        LatLng TTU = new LatLng(25.009193, 121.539071);
+        mMap.addMarker(new MarkerOptions()
+                .position(TTU)
+                .title("國立台灣科技大學"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(TTU));
+
+        LatLng TUD = new LatLng(25.024624, 121.544637);
+        mMap.addMarker(new MarkerOptions()
+                .position(TUD)
+                .title("國立台北教育大學創意自造中心&創客實驗室"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(TUD));
+
+        LatLng TNU = new LatLng(25.025951, 121.527489);
+        mMap.addMarker(new MarkerOptions()
+                .position(TNU)
+                .title("國立臺灣師範大學自造大師基地"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(TNU));
+
+        LatLng DMC = new LatLng(25.071328, 121.595649);
+        mMap.addMarker(new MarkerOptions()
+                .position(DMC)
+                .title("國防醫學院Fablab"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(DMC));
+
+        LatLng SCU = new LatLng(25.083272, 121.545147);
+        mMap.addMarker(new MarkerOptions()
+                .position(SCU)
+                .title("實踐大學媒體傳達設計學系FABLAB"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(SCU));
+
+        LatLng DTU = new LatLng(25.067154, 121.521804);
+        mMap.addMarker(new MarkerOptions()
+                .position(DTU)
+                .title("大同大學未來產房"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(DTU));
+
+        LatLng LDD = new LatLng(25.022494, 121.529927);
+        mMap.addMarker(new MarkerOptions()
+                .position(LDD)
+                .title("綠點點點點 - 社區營造基地"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(LDD));
+
+        LatLng TY = new LatLng(25.038982, 121.522255);
+        mMap.addMarker(new MarkerOptions()
+                .position(TY)
+                .title("台北市青少年發展處創新學習基地"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(TY));
+
+        LatLng YYD = new LatLng(25.085563, 121.523113);
+        mMap.addMarker(new MarkerOptions()
+                .position(YYD)
+                .title("英業達雲豹1號夢工廠"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(YYD));
+
 
         mMap.animateCamera(CameraUpdateFactory.zoomTo(7));
     }
