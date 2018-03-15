@@ -321,6 +321,163 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .title("衣啟飛翔創客基地"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(ICFA));
 
+        LatLng ICFB = new LatLng(24.815689, 120.962720);
+        mMap.addMarker(new MarkerOptions()
+                .position(ICFB)
+                .title("衣啟飛翔創客基地"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(ICFB));
+
+        LatLng CHU = new LatLng(24.796350, 120.995007);
+        mMap.addMarker(new MarkerOptions()
+                .position(CHU)
+                .title("清華大學WeSchool維創工坊"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(CHU));
+
+        LatLng HCL = new LatLng(24.796936, 121.010941);
+        mMap.addMarker(new MarkerOptions()
+                .position(HCL)
+                .title("新竹工具圖書館 / 般若來集成工程"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(HCL));
+
+        LatLng MSU = new LatLng(24.863851, 120.991217);
+        mMap.addMarker(new MarkerOptions()
+                .position(MSU)
+                .title("明新科技大學"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(MSU));
+
+        LatLng CWC = new LatLng(24.803045, 120.953708);
+        mMap.addMarker(new MarkerOptions()
+                .position(CWC)
+                .title("造物者工坊"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(CWC));
+
+        LatLng MLH = new LatLng(24.556469, 120.834083);
+        mMap.addMarker(new MarkerOptions()
+                .position(MLH)
+                .title("苗栗農工FabLab"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(MLH));
+
+        LatLng LHM = new LatLng(24.545713, 120.812257);
+        mMap.addMarker(new MarkerOptions()
+                .position(LHM)
+                .title("國立聯合大學創客空間"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(LHM));
+
+        LatLng TCH = new LatLng(24.113420, 120.661341);
+        mMap.addMarker(new MarkerOptions()
+                .position(TCH)
+                .title("台中高工FabLab"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(TCH));
+
+        LatLng FCU = new LatLng(24.181635, 120.646415);
+        mMap.addMarker(new MarkerOptions()
+                .position(FCU)
+                .title("逢甲大學G-Print創客中心"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(FCU));
+
+        LatLng LF = new LatLng(24.144772, 120.660387);
+        mMap.addMarker(new MarkerOptions()
+                .position(LF)
+                .title("Linkin Factory聯合工廠"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(LF));
+
+        LatLng TCN = new LatLng(24.152130, 120.683696);
+        mMap.addMarker(new MarkerOptions()
+                .position(TCN)
+                .title("TCN創客基地"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(TCN));
+
+        LatLng SPU = new LatLng(24.095313, 120.713765);
+        mMap.addMarker(new MarkerOptions()
+                .position(SPU)
+                .title("修平科大智慧生活創新創業育成平台"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(SPU));
+
+        LatLng CYF = new LatLng(24.146558, 120.733358);
+        mMap.addMarker(new MarkerOptions()
+                .position(CYF)
+                .title("國立勤益科技大學多功能實習工廠"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(CYF));
+
+        LatLng CYT = new LatLng(24.072821, 120.715414);
+        mMap.addMarker(new MarkerOptions()
+                .position(CYT)
+                .title("朝陽科技大學產學合作處創新創業發展中心"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(CYT));
+
+        LatLng THU = new LatLng(24.182416, 120.602728);
+        mMap.addMarker(new MarkerOptions()
+                .position(THU)
+                .title("東海大學工業設計系Maker Studio"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(THU));
+
+        LatLng CSH = new LatLng(24.265249, 120.574098);
+        mMap.addMarker(new MarkerOptions()
+                .position(CSH)
+                .title("清水高中自造實驗室"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(CSH));
+
+        LatLng BRF = new LatLng(24.092317, 120.582854);
+        mMap.addMarker(new MarkerOptions()
+                .position(BRF)
+                .title("百忍工坊 - 木工忍者的現代工坊"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(BRF));
+
+        LatLng DCH = new LatLng(23.948164, 120.601044);
+        mMap.addMarker(new MarkerOptions()
+                .position(DCH)
+                .title("大慶商工職業學校"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(DCH));
+
+        LatLng MOLI = new LatLng(23.950229, 120.930108);
+        mMap.addMarker(new MarkerOptions()
+                .position(MOLI)
+                .title("MOLi創新自造者開放實驗室"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(MOLI));
+
+        LatLng NTM = new LatLng(23.903614, 120.689637);
+        mMap.addMarker(new MarkerOptions()
+                .position(NTM)
+                .title("南投創客基地"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(NTM));
+
+        LatLng TDH = new LatLng(23.998420, 120.695346);
+        mMap.addMarker(new MarkerOptions()
+                .position(TDH)
+                .title("同德家商"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(TDH));
+
+        LatLng NKU = new LatLng(23.979233, 120.696843);
+        mMap.addMarker(new MarkerOptions()
+                .position(NKU)
+                .title("南開科技大學多媒體動畫應用系"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(NKU));
+
+        LatLng HWU = new LatLng(23.703108, 120.430151);
+        mMap.addMarker(new MarkerOptions()
+                .position(HWU)
+                .title("國立虎尾科技大學創意夢工廠"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(HWU));
+
+        LatLng YKD = new LatLng(23.695850, 120.534012);
+        mMap.addMarker(new MarkerOptions()
+                .position(YKD)
+                .title("雲科大自造者基地：跨領域創意工廠"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(YKD));
+
+        LatLng MV = new LatLng(23.561461, 120.473388);
+        mMap.addMarker(new MarkerOptions()
+                .position(MV)
+                .title("Maker Village"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(MV));
+
+        LatLng NHU = new LatLng(23.569313, 120.494306
+        );
+        mMap.addMarker(new MarkerOptions()
+                .position(NHU)
+                .title("南華大學創意模型、造型設計、陶藝工坊" ));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(NHU));
+
 
         mMap.animateCamera(CameraUpdateFactory.zoomTo(7));
     }
