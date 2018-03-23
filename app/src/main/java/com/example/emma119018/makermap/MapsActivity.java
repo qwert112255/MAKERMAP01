@@ -25,6 +25,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
 
+
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
@@ -36,13 +37,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
      */
     @Override
     public void onMapReady(GoogleMap googleMap) {
+
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
         LatLng FGU = new LatLng(24.816226, 121.722100);
         mMap.addMarker(new MarkerOptions()
                 .position(FGU)
-                .title("佛光大學"));
+                .title("佛光大學")
+                .snippet("宜蘭縣礁溪鄉林尾路160號03-9871000#25321")
+                );
 
         LatLng SBH = new LatLng(24.984116, 121.451362);
         mMap.addMarker(new MarkerOptions()
@@ -530,8 +534,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 .title("花蓮高工東區自造實驗室" ));
 
 
+
         LatLng CENTER = new LatLng(23.973875,120.982024);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(CENTER,7));
-
     }
 }
