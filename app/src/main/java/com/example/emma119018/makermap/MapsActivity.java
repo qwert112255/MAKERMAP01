@@ -45,7 +45,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions()
                 .position(FGU)
                 .title("佛光大學")
-                .snippet("宜蘭縣礁溪鄉林尾路160號03-9871000#25321")
                 );
 
         LatLng SBH = new LatLng(24.984116, 121.451362);
